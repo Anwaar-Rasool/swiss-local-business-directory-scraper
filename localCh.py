@@ -123,16 +123,6 @@ if __name__ == "__main__":
         f"./{keyword}/3.csv",
         f"./{keyword}/4.csv",
         f"./{keyword}/5.csv",
-        # f"./{keyword}/6.csv",
-        # f"./{keyword}/7.csv",
-        # f"./{keyword}/8.csv",
-        # f"./{keyword}/9.csv",
-        # f"./{keyword}/10.csv",
-        # f"./{keyword}/11.csv",
-        # f"./{keyword}/12.csv",
-        # f"./{keyword}/13.csv",
-        # f"./{keyword}/14.csv",
-    #     f"./{keyword}/15.csv",
     ]
 
     with ThreadPoolExecutor(max_workers=5) as executor:
